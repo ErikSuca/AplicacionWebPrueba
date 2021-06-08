@@ -1,0 +1,21 @@
+header{
+    background-color: #EAC926;
+    font-family: 'Roboto', sans-serif;
+
+}
+li{
+    list-style:none;
+}
+a{
+    color: #000000;
+    text-decoration: none;
+}
+.burger-menu{
+    background-color: #1259c3;
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    color: white;
+}
+
+
