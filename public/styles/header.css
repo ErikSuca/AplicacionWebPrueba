@@ -1,21 +1,44 @@
+
 header{
     background-color: #EAC926;
     font-family: 'Roboto', sans-serif;
-
+    padding: 15px;
+    font-size: 2.5em;
 }
-li{
+header img{
+    width: 55%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: block;
+}
+header li{
     list-style:none;
 }
-a{
+header a{
     color: #000000;
     text-decoration: none;
 }
-.burger-menu{
+header div{
+    text-align: center;
+}
+header .burger-menu i{
     background-color: #1259c3;
-    height: 40px;
-    width: 40px;
-    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 6px;
     color: white;
 }
-
-
+header .fa-bars{
+    font-size: larger;
+    margin-top: 10px;
+}
+header p{
+    text-align: center;
+    margin: 15px;
+}
+header ul{
+    display: none;
+}
+header input{
+    margin: 10px;
+}
