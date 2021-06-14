@@ -1,9 +1,11 @@
+*{
+    box-sizing: border-box;
+}
 body{
     background-color: #ebebeb;
 }
  h3{
-    /* font-size: 24px; */
-    font-size: 4.5em;
+    font-size: 1.5em;
     margin-bottom: 20px;
     margin-top: 10px;
     font-weight: bold;
@@ -17,40 +19,67 @@ main{
  img{
     width: 100%;
 }
+
 main article{
     margin-top: 10px;
     background-color: #FFFFFF;
 }
 main article div {
     border-top: solid #ebebeb 1px;
-    padding: 2em;
+    padding: 1em;
 }
 main article div p {
     margin-top: 0.5em;
 }
-/* icono de track */
+/* icon track */
 main article i {
     border-radius: 50%;
     border: solid #39b54a 1px;
     color: #39b54a;
-    padding: 15px;
-    font-size: 3em;
+    padding: 10px;
+    font-size: 1.2em;
 }
 /* precio */
 main article div :nth-child(2){
     /* font-size: 18px; */
-    font-size: 4em;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
 }
 /* descuentos */
 main article div :nth-child(3){
     /* font-size: 16px; */
-    font-size: 3em;
+    font-size: 1em;
     color: #39b54a;
+    font-family: 'Roboto', sans-serif;
 }
 /* descripcion */
 main article div :nth-child(4){
     margin-top: 15px;
     font-size: 16px;
     display: none;
+    color: #666;
+    font-family: 'Roboto', sans-serif;
 }
 
+@media (min-width:769px) {
+    h3{
+        font-size: 1.5em;
+    }
+    main article i {
+        font-size: 1em;
+        padding: 10px;
+    }
+    main article div :nth-child(2){
+        /* font-size: 18px; */
+        font-size: 1.125em;
+    }
+    main article div :nth-child(3){
+        font-size: 1em;
+    }
+    main article div :nth-child(4){
+        display: block;
+    }
+    main article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+}
