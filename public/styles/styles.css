@@ -97,8 +97,14 @@ main article div :nth-child(4){
         max-width: 286px;
     }
 }
-@media (min-width:1000px) {
+@media (min-width:986px) {
     main article{
         max-width: 22%;
+    }
+    .precio{
+        width: 50%;
+    }
+    .descuentos{
+        width: 50%;
     }
 }
