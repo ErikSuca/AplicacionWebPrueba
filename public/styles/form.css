@@ -1,0 +1,11 @@
+form{
+    background-color: #666;
+}
+.element-form {
+    width: 90vw;
+    
+    margin: auto 15px;
+}
+.element-form input{
+    width: 100%;
+}

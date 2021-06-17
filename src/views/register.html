@@ -32,8 +32,8 @@
                 <li><a href="">Ayuda</a></li>
             </ul>
             <ul>
-                <li><a href="register.html">Creá tu cuenta </a><i class="fas fa-address-card"></i></li>
-                <li><a href="">Ingresá </a><i class="fas fa-sign-in-alt"></i></li>
+                <li><a href="/register.html">Creá tu cuenta </a><i class="fas fa-address-card"></i></li>
+                <li><a href="/login.html">Ingresá </a><i class="fas fa-sign-in-alt"></i></li>
                 <li><a href="">Mis compras </a><i class="fas fa-shopping-basket"></i></li>
             </ul>
         </nav>
@@ -44,22 +44,22 @@
     <main>
         <section>
             <form action="/" method="POST" autocomplete="off" >
-                <div>
+                <div class="element-form">
                     <label for="name">Nombre:</label>
                     <input type="text" name="name" id="name" placeholder="Ej. Erik" required>
                 </div>
-                <div>
+                <div class="element-form">
                     <label for="name-user">Nombre de usuario:</label>
                     <input type="text" name="name-user" id="name-user" placeholder="Ej. Erik.suca" required>
                 </div>
-                <div>
+                <div class="element-form">
                     <input type="date" name="date-user" id="date-user" required>
                 </div>
-                <div>
+                <div class="element-form">
                     <label for="address">Domicilio:</label>
                     <input type="text" name="address-user" id="address" required>
                 </div>
-                <div>
+                <div class="element-form">
                     <label>Perfil del usuario:</label>
                     <label>
                         <input type="radio" name="type-user" value="comprador">
@@ -70,7 +70,7 @@
                         vendedor
                     </label>
                 </div>
-                <div>
+                <div class="element-form">
                     <label>Categoria de interés</label>
                     <label>
                         <input type="checkbox" name="category" value="electro">
@@ -93,23 +93,40 @@
                         Vida sana
                     </label>
                 </div>
-                <div>
+                <div class="element-form">
                     <label for="photo">Foto de perfil</label>
                     <input type="file" id="photo" name="photo">
                 </div>
-                <div>
+                <div class="element-form">
                     <label for="password">Contraseña</label>
                     <input type="password" name="password" id="password">
                 </div>
-                <div>
+                <div class="element-form">
                     <label for="password-confirm">Confirmar contraseña</label>
                     <input type="password" name="password-confirm" id="password-confirm">
                 </div>
-                <input type="submit" value="ENVIAR">
-                <input type="reset" value="REINICIAR">
+                <button type="submit">REGISTRARME</button>
+                <button type="reset">RESET</button>
                 </form>
         </section>
     </main>
-
+    <footer>
+        <article>
+            <i class="fas fa-credit-card"></i>
+            <h4>Pagá con tarjeta o en efectivo</h4>
+            <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
+        </article>
+        <article>
+            <i class="fas fa-gift"></i>
+            <h4>Envío gratis desde $ 2.500</h4>
+            <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos.</p>
+        </article>
+        <article>
+            <i class="fas fa-user-shield"></i>
+            <h4>Seguridad, de principio a fin</h4>
+            <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre protegid@.</p>
+        </article>
+        <p>Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
+    </footer>
 </body>
 </html>

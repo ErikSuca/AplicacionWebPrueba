@@ -6,7 +6,8 @@ header{
     font-size:1em;
     /* justify-content: space-around; permite que los elementos flex se distribuyan de manera uniforme  */
 }
-header img{
+
+.logo{
     max-width: 120px;
     margin-right: 10px;
     display: block;
