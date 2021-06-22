@@ -8,10 +8,9 @@ header{
 }
 
 .logo{
-    max-width: 120px;
-    margin-right: 10px;
-    display: block;
+    width: 120px;
 }
+
 header li{
     list-style:none;
 }
@@ -40,21 +39,25 @@ nav li{
 }
 .search{
     display: flex;
-    max-width: 50%;
+    width: 50%;
     background-color: #ffffff;
     justify-content: space-between;
     align-items: center;
     border-radius: 6px;
-}
-.search i{
-    width: 25%;
-    border-left: solid 1px #666;
 }
 .search input{
     width: 90%;
     padding: 10px;
     border: 0px;
     border-radius: 6px;
+}
+header form button{
+    border: 0px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    text-align: center;
+    color: #666;
 }
 header a{
     color: #000000;
@@ -82,10 +85,18 @@ header ul{
     display: none;
     margin-top: 10px;
 }
+@media (min-width: 320px) {
+    .logo{
+        width: 40%;
+    }
+}
 
 @media (min-width: 769px) { 
     header{
         font-size: 1em;
+    }
+    .logo{
+        width: 120px;
     }
     header ul{
        display: flex;
@@ -98,14 +109,4 @@ header ul{
         margin-top: 0px;
         text-align: right;
     }
-    .search{
-        width: 50%;
-    }
-    header img{
-        width: 15%;
-    }
-    .search i{
-        width: 10%;
-    }
-
 }
