@@ -73,6 +73,11 @@ header .burger-menu i{
     margin: 10px;
     border-radius: 6px;
     color: white;
+    transition: all .25s ease-in;
+}
+header .burger-menu i:hover{
+    background-color: #0022AA;
+    transform: scale(1.2);
 }
 header .fa-bars{
     font-size: larger;

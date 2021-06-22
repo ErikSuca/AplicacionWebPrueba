@@ -25,6 +25,7 @@ main div article{
     margin-left: 5px ;
     margin-right: 5px ;
     background-color: #FFFFFF;
+    transition: all .25s ease-in;
 }
 main article div {
     border-top: solid #ebebeb 1px;
@@ -32,6 +33,7 @@ main article div {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    position: relative;
 }
 main article div p {
     margin-top: 0.5em;
@@ -48,9 +50,9 @@ main article i {
     width: 30px;
     height: 30px;
     background-color: #FFF;
-    position: relative;
-    left: 90%;
-    top: -55px;
+    position: absolute;
+    left: 80%;
+    top: -20%;
 }
 /* precio */
 .precio{
@@ -67,11 +69,22 @@ main article i {
     font-family: 'Roboto', sans-serif;
 }
 /* descripcion */
-main article div :nth-child(4){
+.descripcion{
     font-size: 16px;
     color: #666;
     font-family: 'Roboto', sans-serif;
     width: 100%;
+    opacity: 0;
+    transform: scale(0);
+    transition: all .3s;
+}
+main article:hover .descripcion{
+    transform: scale(1);
+    opacity: 1;
+}
+
+main article:hover{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
 .main-productos{
     display: flex;

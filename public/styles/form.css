@@ -64,6 +64,9 @@ input[type="date"] {
 .button-enviar{
     width: 100%;
 }
+.button-enviar:hover{
+    background-color: #0022AA;
+}
 
 .buttom-green{
     border: 0px;
