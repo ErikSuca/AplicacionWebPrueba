@@ -4,7 +4,7 @@ footer article{
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 20px;
-    max-width: 400px;
+    width: 100%;
 }
 footer>p{
     width: 100%;
@@ -43,7 +43,7 @@ footer p{
     margin-top: 10px;
 }
 
-@media (min-width:986px) {
+@media screen and(min-width:986px) {
     footer article{
         width: 30vw;
     }

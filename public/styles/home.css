@@ -97,7 +97,7 @@ main article:hover{
 }
 
 
-@media (min-width:769px) {
+@media screen and(min-width:769px) {
     h3{
         font-size: 1.5em;
     }
@@ -112,7 +112,7 @@ main article:hover{
         max-width: 286px;
     }
 }
-@media (min-width:986px) {
+@media screen and(min-width:986px) {
     main article{
         max-width: 22%;
     }
