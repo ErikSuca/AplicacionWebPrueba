@@ -16,7 +16,7 @@ main{
     margin: auto; 
     padding-bottom: 5px;
 }
- img{
+img{
     width: 100%;
 }
 
@@ -26,13 +26,17 @@ main div article{
     margin-right: 5px ;
     background-color: #FFFFFF;
     transition: all .25s ease-in;
+    border-radius: 5px;
+    
+}
+article img{
+    border-radius: 5px;
 }
 main article div {
     border-top: solid #ebebeb 1px;
     padding: 1em;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     position: relative;
 }
 main article div p {
@@ -74,13 +78,11 @@ main article i {
     color: #666;
     font-family: 'Roboto', sans-serif;
     width: 100%;
-    opacity: 0;
-    transform: scale(0);
+    display: none;
     transition: all .3s;
 }
 main article:hover .descripcion{
-    transform: scale(1);
-    opacity: 1;
+    display: block;
 }
 
 main article:hover{
@@ -90,7 +92,9 @@ main article:hover{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: flex-start;
 }
+
 
 @media (min-width:769px) {
     h3{
@@ -98,15 +102,12 @@ main article:hover{
     }
  
     .precio{
-        /* font-size: 18px; */
         font-size: 1.125em;
     }
     .descuentos{
         font-size: 1em;
     }
-
     main article{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
         max-width: 286px;
     }
 }
