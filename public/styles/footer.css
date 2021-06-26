@@ -43,7 +43,7 @@ footer p{
     margin-top: 10px;
 }
 
-@media screen and(min-width:986px) {
+@media (min-width:986px) {
     footer article{
         width: 30vw;
     }
